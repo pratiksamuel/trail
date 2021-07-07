@@ -17,3 +17,5 @@ for i in glob.glob(path):
 			with open(j,"w+") as f:
 				json.dump(js,f)
 				flag=False
+
+print("testing")
