@@ -13,7 +13,7 @@ for i in glob.glob(path):
 				if js["shapes"][k]["label"] =="others":
 					js["shapes"][k]["label"]="other"
 					flag=True
-		if flag=True:
+		if flag==True:
 			with open(j,"w+") as f:
 				json.dump(js,f)
 				flag=False
